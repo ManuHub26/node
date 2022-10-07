@@ -20,6 +20,6 @@ fs.stat(file, (err, stat) => {
     read.pipe(write)
 
     write.on('finish', () => {
-        console.log('fichier bien copié')
+        console.log('fichier bien copié !')
     })
 })
